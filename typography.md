@@ -2,60 +2,76 @@
 
 ## Header
 
-If you need custom navigation, you can create a HTML-based navigation bar.
+Judul besar halaman
 
 ```html
 # Title
 ```
-Result: 
+Output: 
 # Title
+
+* * *
 
 ## Sub Header
 
-Alternatively, you can create a custom markdown-based navigation file by setting `loadNavbar` to **true** and creating `_navbar.md`, compare [loadNavbar configuration](configuration.md#loadnavbar).
+Poin-poin kecil dari halaman
 
 ```html
 ## Sub Title
 ```
-Result: 
+Output: 
 ## Sub Title
 
-```html
-<hr>
-```
+* * *
 
 ## Highlight
 
-You can create sub-lists by indenting items that are under a certain parent.
+Memberi tanda penting pada kalimat atau kata di paragraf.
 
 ```markdown
-`loadNavbar`
+`Deleted`
 ```
 
-Result: `loadNavbar`
+Output: `Deleted`
+
+* * *
 
 ## Bold
 
-You can create sub-lists by indenting items that are under a certain parent.
+Menebalkan font.
 
 ```markdown
 **true**
 ```
 
-## Underline
+Output: **true**
 
-You can create sub-lists by indenting items that are under a certain parent.
+* * *
+
+## Link
+
+Membuat link redirect ke halaman lain.
 
 ```markdown
-[loadNavbar configuration]
+[loadNavbar configuration](configuration.md#loadnavbar)
 ```
+
+Output: [loadNavbar configuration](configuration.md#loadnavbar).
+
+* * *
 
 ## List
 
-You can create sub-lists by indenting items that are under a certain parent.
+List data.
 
 ```markdown
 - the entry file
 - as the home page
 - prevents GitHub Pages from ignoring files that 
 ```
+
+Ouput: 
+- the entry file
+- as the home page
+- prevents GitHub Pages from ignoring files that 
+
